@@ -1,0 +1,8 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Green Guy",
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "block/snow/snow_block_4"
+	}
+}

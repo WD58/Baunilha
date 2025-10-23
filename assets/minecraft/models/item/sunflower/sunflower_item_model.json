@@ -1,0 +1,85 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Green Guy",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "item/sunflower/sunflower_item_back",
+		"1": "item/sunflower/sunflower_item_front",
+		"2": "item/sunflower/sunflower_item_stem",
+		"3": "item/sunflower/sunflower_item_stem_alt",
+		"particle": "item/sunflower/sunflower_item_back"
+	},
+	"elements": [
+		{
+			"from": [8.6, 6, 1],
+			"to": [8.6, 22, 15],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [7, 15, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#2"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-126, 51, -180],
+			"translation": [-0.5, 2, 3.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-126, -144, -180],
+			"translation": [-0.5, 2, 3.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [3, -7, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [3, -7, 0]
+		},
+		"ground": {
+			"rotation": [90, 45, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"gui": {
+			"rotation": [0, -90, -22.5],
+			"translation": [0, -4.25, 0]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [1, 14.75, -1.75],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"fixed": {
+			"rotation": [-56, 43, 58],
+			"translation": [0, -2.5, -1.5],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"on_shelf": {
+			"rotation": [0, -90, -22.5],
+			"translation": [0, 1.75, 2.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}
