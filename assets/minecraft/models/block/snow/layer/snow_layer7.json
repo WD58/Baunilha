@@ -2,27 +2,28 @@
 	"format_version": "1.21.6",
 	"credit": "Green Guy",
 	"textures": {
-		"particle": "block/moss/moss_block",
-		"block": "block/moss/moss_block"
+		"0": "block/snow/snow_block",
+		"1": "block/snow/snow_underside",
+		"particle": "block/snow/snow_block"
 	},
 	"elements": [
 		{
 			"from": [0, 0, 0],
-			"to": [16, 16, 16],
+			"to": [16, 14, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#block", "cullface": "north"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#block", "cullface": "east"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#block", "cullface": "south"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#block", "cullface": "west"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#block", "cullface": "up"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#block", "cullface": "down"}
+				"north": {"uv": [0, 2, 16, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 2, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 2, 16, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 2, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
 			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [75, 45, 0],
-			"translation": [0, 2.5, 0],
+			"translation": [0, 2.5, 2],
 			"scale": [0.375, 0.375, 0.375]
 		},
 		"thirdperson_lefthand": {
@@ -32,10 +33,12 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 45, 0],
+			"translation": [0, 4.2, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, -135, 0],
+			"translation": [0, 4.2, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
@@ -44,7 +47,12 @@
 		},
 		"gui": {
 			"rotation": [30, -135, 0],
+			"translation": [0, 6.25, 0],
 			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, 13.55, 0],
+			"scale": [0.9, 0.9, 0.9]
 		},
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]
