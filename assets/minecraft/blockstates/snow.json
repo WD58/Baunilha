@@ -1,16 +1,6 @@
 {
-  "multipart": [
-    {
-      "apply": [
-        {"model": "block/snow/overlay/snow_overlay"},
-        {"model": "block/snow/overlay/snow_overlay_2"},
-        {"model": "block/snow/overlay/snow_overlay_3"},
-        {"model": "block/snow/overlay/snow_overlay_4"}
-      ]
-    },
-    {
-      "when": {"layers": "1"},
-      "apply": [
+  "variants": {
+    "layers=1": [
         {"model": "minecraft:block/snow/layer/snow_layer1"},
         {"model": "minecraft:block/snow/layer/snow_layer1_2"},
         {"model": "minecraft:block/snow/layer/snow_layer1_3"},
@@ -27,11 +17,8 @@
         {"model": "minecraft:block/snow/layer/snow_layer1_2", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer1_3", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer1_4", "y": 270}
-      ]
-    },
-    {
-      "when": {"layers": "2"},
-      "apply": [
+      ],
+    "layers=2": [
         {"model": "minecraft:block/snow/layer/snow_layer2"},
         {"model": "minecraft:block/snow/layer/snow_layer2_2"},
         {"model": "minecraft:block/snow/layer/snow_layer2_3"},
@@ -48,11 +35,8 @@
         {"model": "minecraft:block/snow/layer/snow_layer2_2", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer2_3", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer2_4", "y": 270}
-      ]
-    },
-    {
-      "when": {"layers": "3"},
-      "apply": [
+      ],
+    "layers=3": [
         {"model": "minecraft:block/snow/layer/snow_layer3"},
         {"model": "minecraft:block/snow/layer/snow_layer3_2"},
         {"model": "minecraft:block/snow/layer/snow_layer3_3"},
@@ -69,11 +53,8 @@
         {"model": "minecraft:block/snow/layer/snow_layer3_2", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer3_3", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer3_4", "y": 270}
-      ]
-    },
-    {
-      "when": {"layers": "4"},
-      "apply": [
+      ],
+    "layers=4": [
         {"model": "minecraft:block/snow/layer/snow_layer4"},
         {"model": "minecraft:block/snow/layer/snow_layer4_2"},
         {"model": "minecraft:block/snow/layer/snow_layer4_3"},
@@ -90,11 +71,8 @@
         {"model": "minecraft:block/snow/layer/snow_layer4_2", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer4_3", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer4_4", "y": 270}
-      ]
-    },
-    {
-      "when": {"layers": "5"},
-      "apply": [
+      ],
+    "layers=5": [
         {"model": "minecraft:block/snow/layer/snow_layer5"},
         {"model": "minecraft:block/snow/layer/snow_layer5_2"},
         {"model": "minecraft:block/snow/layer/snow_layer5_3"},
@@ -111,11 +89,8 @@
         {"model": "minecraft:block/snow/layer/snow_layer5_2", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer5_3", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer5_4", "y": 270}
-      ]
-    },
-    {
-      "when": {"layers": "6"},
-      "apply": [
+      ],
+    "layers=6": [
         {"model": "minecraft:block/snow/layer/snow_layer6"},
         {"model": "minecraft:block/snow/layer/snow_layer6_2"},
         {"model": "minecraft:block/snow/layer/snow_layer6_3"},
@@ -132,11 +107,8 @@
         {"model": "minecraft:block/snow/layer/snow_layer6_2", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer6_3", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer6_4", "y": 270}
-      ]
-    },
-    {
-      "when": {"layers": "7"},
-      "apply": [
+      ],
+    "layers=7": [
         {"model": "minecraft:block/snow/layer/snow_layer7"},
         {"model": "minecraft:block/snow/layer/snow_layer7_2"},
         {"model": "minecraft:block/snow/layer/snow_layer7_3"},
@@ -153,15 +125,12 @@
         {"model": "minecraft:block/snow/layer/snow_layer7_2", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer7_3", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer7_4", "y": 270}
-      ]
-    },
-    {
-      "when": {"layers": "8"},
-      "apply": [
+      ],
+    "layers=1": [
         {"model": "minecraft:block/snow/layer/snow_layer8"},
         {"model": "minecraft:block/snow/layer/snow_layer8_2"},
         {"model": "minecraft:block/snow/layer/snow_layer8_3"},
-        {"model": "minecraft:block/snow/layer/snow_layer8_4"},
+        {"model": "minecraft:block/snow/layer/snow_layer81_4"},
         {"model": "minecraft:block/snow/layer/snow_layer8", "y": 90},
         {"model": "minecraft:block/snow/layer/snow_layer8_2", "y": 90},
         {"model": "minecraft:block/snow/layer/snow_layer8_3", "y": 90},
@@ -174,7 +143,6 @@
         {"model": "minecraft:block/snow/layer/snow_layer8_2", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer8_3", "y": 270},
         {"model": "minecraft:block/snow/layer/snow_layer8_4", "y": 270}
-      ]
-    }
-  ]
+      ],
+  }
 }
