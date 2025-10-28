@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "minecraft:block/fungi/red_mushroom/red_mushroom_4"
+  }
+}

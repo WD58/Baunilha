@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/bottom_plane",
+  "textures": {
+    "bottom": "minecraft:block/fungi/red_mushroom/red_mushroom_bottom_3"
+  }
+}

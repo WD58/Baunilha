@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross_offset",
+  "textures": {
+    "cross": "minecraft:block/fungi/red_mushroom/tiny_red_mushroom_2"
+  }
+}

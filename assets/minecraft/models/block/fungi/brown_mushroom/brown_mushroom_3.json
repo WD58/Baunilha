@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "minecraft:block/fungi/brown_mushroom/brown_mushroom_3"
+  }
+}

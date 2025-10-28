@@ -1,0 +1,59 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {"model": "block/fungi/red_mushroom/red_mushroom"},
+        {"model": "block/fungi/red_mushroom/red_mushroom_2"},
+        {"model": "block/fungi/red_mushroom/red_mushroom_3"},
+        {"model": "block/fungi/red_mushroom/red_mushroom_4"},
+        {"model": "block/fungi/red_mushroom/red_mushroom_5"},
+        {"model": "block/fungi/red_mushroom/red_mushroom_6"},
+        {"model": "block/fungi/red_mushroom/red_mushroom_7"}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "null", "weight": 3},
+        {"model": "block/fungi/red_mushroom/red_mushroom_bottom"},
+        {"model": "block/fungi/red_mushroom/red_mushroom_bottom_2"},
+        {"model": "block/fungi/red_mushroom/red_mushroom_bottom_3"}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "null", "weight": 4},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom"},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_2"},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_3"},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_4"}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "null", "weight": 4},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_4", "y": 90},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_3", "y": 90},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_2", "y": 90},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom", "y": 90}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "null", "weight": 4},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_2", "y": 180},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom", "y": 180},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_4", "y": 180},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_3", "y": 180}
+      ]
+    },
+    {
+      "apply": [
+        {"model": "null", "weight": 4},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_3", "y": 270},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_4", "y": 270},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom", "y": 270},
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom_2", "y": 270}
+      ]
+    }
+  ]
+}
