@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "minecraft:block/wheat_stage0"
+    },
+    "age=1": {
+      "model": "minecraft:block/wheat_stage1"
+    },
+    "age=2": {
+      "model": "minecraft:block/wheat_stage2"
+    },
+    "age=3": {
+      "model": "minecraft:block/wheat_stage3"
+    },
+    "age=4": {
+      "model": "minecraft:block/wheat_stage4"
+    },
+    "age=5": {
+      "model": "minecraft:block/wheat_stage5"
+    },
+    "age=6": {
+      "model": "minecraft:block/wheat_stage6"
+    },
+    "age=7": [
+      {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7"},
+      {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_2"},
+      {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_3"},
+      {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_4"},
+      {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_5"}
+    ]
+  }
+}

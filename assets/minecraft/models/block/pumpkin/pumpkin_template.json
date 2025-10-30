@@ -1,0 +1,27 @@
+{
+        "parent": "block/orientable_with_bottom",
+	"format_version": "1.21.6",
+	"credit": "Green Guy",
+	"textures":{
+		"side": "block/pumpkin/pumpkin_side",
+		"top": "block/pumpkin/pumpkin_top",
+		"bottom": "block/pumpkin/pumpkin_bottom"
+		},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"on_shelf": {"rotation": [0, -180, 0]}
+	}
+}

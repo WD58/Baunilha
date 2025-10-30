@@ -1,0 +1,6 @@
+{
+        "parent": "block/pumpkin/pumpkin_template",
+	"format_version": "1.21.6",
+	"credit": "Green Guy",
+	"textures": {"front": "block/pumpkin/jack_o_lantern/jack_o_lantern_4"}
+}

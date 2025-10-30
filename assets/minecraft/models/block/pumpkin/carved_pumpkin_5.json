@@ -1,0 +1,6 @@
+{
+        "parent": "block/pumpkin/pumpkin_template",
+	"format_version": "1.21.6",
+	"credit": "Green Guy",
+	"textures": {"front": "block/pumpkin/carved_pumpkin/carved_pumpkin_5"}
+}
