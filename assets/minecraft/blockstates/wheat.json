@@ -1,32 +1,68 @@
 {
   "variants": {
-    "age=0": {
-      "model": "minecraft:block/wheat_stage0"
-    },
-    "age=1": {
-      "model": "minecraft:block/wheat_stage1"
-    },
-    "age=2": {
-      "model": "minecraft:block/wheat_stage2"
-    },
-    "age=3": {
-      "model": "minecraft:block/wheat_stage3"
-    },
-    "age=4": {
-      "model": "minecraft:block/wheat_stage4"
-    },
-    "age=5": {
-      "model": "minecraft:block/wheat_stage5"
-    },
-    "age=6": {
-      "model": "minecraft:block/wheat_stage6"
-    },
+    "age=0": [
+      {"model": "minecraft:block/crops/wheat/stage0/wheat_stage_0"},
+      {"model": "minecraft:block/crops/wheat/stage0/wheat_stage_0_2"},
+      {"model": "minecraft:block/crops/wheat/stage0/wheat_stage_0_3"},
+      {"model": "minecraft:block/crops/wheat/stage0/wheat_stage_0_4"},
+      {"model": "minecraft:block/crops/wheat/stage0/wheat_stage_0_5"},
+      {"model": "minecraft:block/crops/wheat/stage0/wheat_stage_0_6"}
+    ],
+    "age=1": [
+      {"model": "minecraft:block/crops/wheat/stage1/wheat_stage_1"},
+      {"model": "minecraft:block/crops/wheat/stage1/wheat_stage_1_2"},
+      {"model": "minecraft:block/crops/wheat/stage1/wheat_stage_1_3"},
+      {"model": "minecraft:block/crops/wheat/stage1/wheat_stage_1_4"},
+      {"model": "minecraft:block/crops/wheat/stage1/wheat_stage_1_5"},
+      {"model": "minecraft:block/crops/wheat/stage1/wheat_stage_1_6"}
+    ],
+    "age=2": [
+      {"model": "minecraft:block/crops/wheat/stage2/wheat_stage_2"},
+      {"model": "minecraft:block/crops/wheat/stage2/wheat_stage_2_2"},
+      {"model": "minecraft:block/crops/wheat/stage2/wheat_stage_2_3"},
+      {"model": "minecraft:block/crops/wheat/stage2/wheat_stage_2_4"},
+      {"model": "minecraft:block/crops/wheat/stage2/wheat_stage_2_5"},
+      {"model": "minecraft:block/crops/wheat/stage2/wheat_stage_2_6"}
+    ],
+    "age=3": [
+      {"model": "minecraft:block/crops/wheat/stage3/wheat_stage_3"},
+      {"model": "minecraft:block/crops/wheat/stage3/wheat_stage_3_2"},
+      {"model": "minecraft:block/crops/wheat/stage3/wheat_stage_3_3"},
+      {"model": "minecraft:block/crops/wheat/stage3/wheat_stage_3_4"},
+      {"model": "minecraft:block/crops/wheat/stage3/wheat_stage_3_5"},
+      {"model": "minecraft:block/crops/wheat/stage3/wheat_stage_3_6"}
+    ],
+    "age=4": [
+      {"model": "minecraft:block/crops/wheat/stage4/wheat_stage_4"},
+      {"model": "minecraft:block/crops/wheat/stage4/wheat_stage_4_2"},
+      {"model": "minecraft:block/crops/wheat/stage4/wheat_stage_4_3"},
+      {"model": "minecraft:block/crops/wheat/stage4/wheat_stage_4_4"},
+      {"model": "minecraft:block/crops/wheat/stage4/wheat_stage_4_5"},
+      {"model": "minecraft:block/crops/wheat/stage4/wheat_stage_4_6"}
+    ],
+    "age=5": [
+      {"model": "minecraft:block/crops/wheat/stage5/wheat_stage_5"},
+      {"model": "minecraft:block/crops/wheat/stage5/wheat_stage_5_2"},
+      {"model": "minecraft:block/crops/wheat/stage5/wheat_stage_5_3"},
+      {"model": "minecraft:block/crops/wheat/stage5/wheat_stage_5_4"},
+      {"model": "minecraft:block/crops/wheat/stage5/wheat_stage_5_5"},
+      {"model": "minecraft:block/crops/wheat/stage5/wheat_stage_5_6"}
+    ],
+    "age=6": [
+      {"model": "minecraft:block/crops/wheat/stage6/wheat_stage_6"},
+      {"model": "minecraft:block/crops/wheat/stage6/wheat_stage_6_2"},
+      {"model": "minecraft:block/crops/wheat/stage6/wheat_stage_6_3"},
+      {"model": "minecraft:block/crops/wheat/stage6/wheat_stage_6_4"},
+      {"model": "minecraft:block/crops/wheat/stage6/wheat_stage_6_5"},
+      {"model": "minecraft:block/crops/wheat/stage6/wheat_stage_6_5"}
+    ],
     "age=7": [
       {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7"},
       {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_2"},
       {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_3"},
       {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_4"},
-      {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_5"}
+      {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_5"},
+      {"model": "minecraft:block/crops/wheat/stage7/wheat_stage_7_6"}
     ]
   }
 }

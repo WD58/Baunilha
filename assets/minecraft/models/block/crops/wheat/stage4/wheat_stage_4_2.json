@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/crops/crop",
+  "textures": {"crop": "minecraft:block/crops/wheat/stage4/wheat_stage_4_2"}
+}

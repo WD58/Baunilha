@@ -1,6 +1,7 @@
 {
 	"format_version": "1.21.6",
 	"credit": "Green Guy",
+	"ambientocclusion": false,
 	"textures": {
 		"front": "block/sunflower/sunflower_front_2",
 		"back": "block/sunflower/sunflower_back_2",
