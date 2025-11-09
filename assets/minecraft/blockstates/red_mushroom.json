@@ -21,7 +21,6 @@
     },
     {
       "apply": [
-        {"model": "null", "weight": 7},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom"},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom_2"},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom_3"},
@@ -29,7 +28,8 @@
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom2"},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom2_2"},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom2_3"},
-        {"model": "block/fungi/red_mushroom/tiny_red_mushroom2_4"}
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom2_4"},
+        {"model": "null", "weight": 7}
       ]
     },
     {
@@ -60,7 +60,6 @@
     },
     {
       "apply": [
-        {"model": "null", "weight": 10},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom_3", "y": 270},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom_4", "y": 270},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom", "y": 270},
@@ -68,7 +67,8 @@
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom2_3", "y": 270},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom2_4", "y": 270},
         {"model": "block/fungi/red_mushroom/tiny_red_mushroom2", "y": 270},
-        {"model": "block/fungi/red_mushroom/tiny_red_mushroom2_2", "y": 270}
+        {"model": "block/fungi/red_mushroom/tiny_red_mushroom2_2", "y": 270},
+        {"model": "null", "weight": 10}
       ]
     }
   ]

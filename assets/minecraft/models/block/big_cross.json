@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Green Guy",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "#cross"
+	},
+	"elements": [
+		{
+			"from": [8, -1, -5],
+			"to": [8, 31, 21],
+			"shade": false,
+			"rotation": {"angle": -44.99, "axis": "y", "origin": [8, 7, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [-5, -1, 8],
+			"to": [21, 31, 8],
+			"shade": false,
+			"rotation": {"angle": -44.99, "axis": "y", "origin": [8, 7, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		}
+	]
+}

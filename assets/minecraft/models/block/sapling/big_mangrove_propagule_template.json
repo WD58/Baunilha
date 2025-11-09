@@ -1,0 +1,51 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Green Guy",
+	"ambientocclusion": false,
+	"textures": {
+		"bottom": "block/sapling/big_mangrove_propagule_body",
+		"particle": "#bottom"
+	},
+	"elements": [
+		{
+			"from": [0.8, -1, 8],
+			"to": [15.2, 15, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -1, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0.8, -1, 8],
+			"to": [15.2, 15, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, -1, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0.8, 15, 8],
+			"to": [15.2, 31, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 15, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		},
+		{
+			"from": [0.8, 15, 8],
+			"to": [15.2, 31, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 15, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		}
+	]
+}

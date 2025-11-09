@@ -1,0 +1,103 @@
+{
+  "multipart": [
+    {
+      "when": {"bottom": "true"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet"},
+        {"model": "block/pale_moss/pale_moss_carpet_2"},
+        {"model": "block/pale_moss/pale_moss_carpet_3"},
+        {"model": "block/pale_moss/pale_moss_carpet_4"},
+        {"model": "block/pale_moss/pale_moss_carpet_5"},
+        {"model": "block/pale_moss/pale_moss_carpet_6"}
+      ]
+    },
+    {
+      "when": {"north": "low"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet_side_small"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_2"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_3"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_4"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_5"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_6"}
+      ]
+    },
+    {
+      "when": {"east": "low"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet_side_small", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_2", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_3", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_4", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_5", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_6", "y": 90}
+      ]
+    },
+    {
+      "when": {"south": "low"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet_side_small", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_2", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_3", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_4", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_5", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_6", "y": 180}
+      ]
+    },
+    {
+      "when": {"west": "low"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet_side_small", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_2", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_3", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_4", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_5", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_small_6", "y": 270}
+      ]
+    },
+    {
+      "when": {"north": "tall"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_2"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_3"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_4"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_5"},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_6"}
+      ]
+    },
+    {
+      "when": {"east": "tall"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_2", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_3", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_4", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_5", "y": 90},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_6", "y": 90}
+      ]
+    },
+    {
+      "when": {"south": "tall"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_2", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_3", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_4", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_5", "y": 180},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_6", "y": 180}
+      ]
+    },
+    {
+      "when": {"west": "tall"},
+      "apply": [
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_2", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_3", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_4", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_5", "y": 270},
+        {"model": "block/pale_moss/pale_moss_carpet_side_tall_6", "y": 270}
+      ]
+    }
+  ]
+}

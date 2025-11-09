@@ -47,7 +47,6 @@
     },
     {
       "apply": [
-        {"model": "null", "weight": 7},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom_2", "y": 180},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom", "y": 180},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom_4", "y": 180},
@@ -55,12 +54,12 @@
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2_2", "y": 180},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2", "y": 180},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2_4", "y": 180},
-        {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2_3", "y": 180}
+        {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2_3", "y": 180},
+        {"model": "null", "weight": 7}
       ]
     },
     {
       "apply": [
-        {"model": "null", "weight": 10},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom_3", "y": 270},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom_4", "y": 270},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom", "y": 270},
@@ -68,7 +67,8 @@
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2_3", "y": 270},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2_4", "y": 270},
         {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2", "y": 270},
-        {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2_2", "y": 270}
+        {"model": "block/fungi/brown_mushroom/tiny_brown_mushroom2_2", "y": 270},
+        {"model": "null", "weight": 10}
       ]
     }
   ]

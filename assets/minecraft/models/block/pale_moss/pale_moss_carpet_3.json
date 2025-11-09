@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/carpet_with_bottom",
+	"textures": {
+		"top": "minecraft:block/pale_moss/pale_moss_block_3",
+		"side": "minecraft:block/pale_moss/pale_moss_carpet_overlay_3",
+		"bottom": "minecraft:block/pale_moss/pale_moss_carpet_underside_3"
+	}
+}

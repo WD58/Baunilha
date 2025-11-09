@@ -1,0 +1,17 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Green Guy",
+	"textures": {
+		"particle": "#side"
+	},
+	"elements": [
+		{
+			"from": [-0.01, -8, -0.01],
+			"to": [16.01, 1, -0.01],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 9], "texture": "#side", "cullface": "north"},
+				"south": {"uv": [0, 0, 16, 9], "texture": "#side", "cullface": "north"}
+			}
+		}
+	]
+}

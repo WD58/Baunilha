@@ -4,7 +4,8 @@
 	"textures": {
 		"side": "block/pumpkin/pumpkin_side",
 		"top": "block/pumpkin/pumpkin_top",
-		"bottom": "block/pumpkin/pumpkin_bottom"
+		"bottom": "block/pumpkin/pumpkin_bottom",
+		"particle": "#front"
 	},
 	"elements": [
 		{

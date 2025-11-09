@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/sapling/big_mangrove_propagule_template",
+  "textures": {"top": "minecraft:block/sapling/big_mangrove_propagule_head_3"}
+}

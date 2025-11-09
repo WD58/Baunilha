@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "stage=0,hanging=false": [
+      {"model": "minecraft:block/sapling/mangrove_propagule"}
+    ],
+    "age=0,hanging=true": [
+          {"model": "minecraft:block/mangrove_propagule_hanging_0"}
+        ],
+    "stage=1,hanging=false": [
+      {"model": "minecraft:block/sapling/big_mangrove_propagule"},
+      {"model": "minecraft:block/sapling/big_mangrove_propagule_2"},
+      {"model": "minecraft:block/sapling/big_mangrove_propagule_3"},
+      {"model": "minecraft:block/sapling/big_mangrove_propagule_4"}
+    ],
+    "age=1,hanging=true": [
+      {"model": "minecraft:block/mangrove_propagule_hanging_1"}
+    ],
+    "age=2,hanging=false": [
+      {"model": "minecraft:block/mangrove_propagule"}
+    ],
+    "age=2,hanging=true": [
+      {"model": "minecraft:block/mangrove_propagule_hanging_2"}
+    ],
+    "age=3,hanging=false": [
+      {"model": "minecraft:block/mangrove_propagule"}
+    ],
+    "age=3,hanging=true": [
+      {"model": "minecraft:block/mangrove_propagule_hanging_3"}
+    ],
+    "age=4,hanging=false": [
+      {"model": "minecraft:block/mangrove_propagule"}
+    ],
+    "age=4,hanging=true": [
+      {"model": "minecraft:block/mangrove_propagule_hanging_4"}
+    ]
+  }
+}
